@@ -10,7 +10,7 @@ export default function MediaFeed() {
       <div className="grid grid-cols-2 grid-rows-2 gap-4 lg:flex lg:space-y-0 lg:flex-row lg:space-x-4 justify-between">
 
         <Link href="https://x.com/elonmusk/status/1867752745039458668" rel="noopener noreferrer" target="_blank">
-        <div className="bg-[#A1DBA6] border border-b-4 border-[#82BF87] lg:max-w-[270px] lg:max-h-[240px] px-2 pt-2 pb-5 rounded-xl">
+        <div className="bg-[#A1DBA6] border border-b-4 border-b-[#000]/50 border-[#82BF87] shadow-md shadow-[#2E7D32] lg:max-w-[270px] lg:max-h-[240px] px-2 pt-2 pb-5 rounded-xl">
           <Image src={Feed1} alt="Origin1" className="" />
           <div>
             <p className="font-fredoka font-medium text-sm lg:text-sm text-[#000] mt-4">
@@ -21,7 +21,7 @@ export default function MediaFeed() {
         </Link>
 
         <Link href="https://x.com/elonmusk/status/1867752745039458668" rel="noopener noreferrer" target="_blank">
-        <div className="bg-[#A1DBA6] border border-b-4  border-[#82BF87] lg:max-w-[270px] lg:max-h-[240px] px-2 pt-2 pb-5 rounded-xl">
+        <div className="bg-[#A1DBA6] border-[1.5px] border-b-4 border-b-[#000]/50 border-[#82BF87] shadow-md shadow-[#2E7D32] lg:max-w-[270px] lg:max-h-[240px] px-2 pt-2 pb-5 rounded-xl">
           <Image src={Feed2} alt="Origin1" className="" />
           <div>
             <p className="font-fredoka font-medium text-sm lg:text-sm text-[#000] mt-4">
@@ -32,7 +32,7 @@ export default function MediaFeed() {
         </Link>
 
         <Link href="https://x.com/cyb3rgam3r420/status/1873129550017880206" rel="noopener noreferrer" target="_blank">
-        <div className="bg-[#A1DBA6] border border-b-4 border-[#82BF87] lg:max-w-[270px] lg:max-h-[240px] px-2 pt-2 pb-5 rounded-xl">
+        <div className="bg-[#A1DBA6] border border-b-4 border-b-[#000]/50 border-[#82BF87] shadow-md shadow-[#2E7D32] lg:max-w-[270px] lg:max-h-[240px] px-2 pt-2 pb-5 rounded-xl">
           <Image src={Feed3} alt="Origin1" className="" />
           <div>
             <p className="font-fredoka font-medium text-sm lg:text-sm text-[#000] mt-4">
@@ -43,7 +43,7 @@ export default function MediaFeed() {
         </Link>
 
         <Link href="https://x.com/elonmusk/status/1873388017458778627" rel="noopener noreferrer" target="_blank">
-        <div className="bg-[#A1DBA6] border border-b-4 border-[#82BF87] lg:max-w-[270px] lg:max-h-[240px] px-2 pt-2 pb-5 rounded-xl">
+        <div className="bg-[#A1DBA6] border border-b-4 border-b-[#000]/50 border-[#82BF87] shadow-md shadow-[#2E7D32] lg:max-w-[270px] lg:max-h-[240px] px-2 pt-2 pb-5 rounded-xl">
           <Image src={Feed4} alt="Origin1" className="" />
           <div>
             <p className="font-fredoka font-medium text-sm lg:text-sm text-[#000] mt-4">
