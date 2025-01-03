@@ -123,7 +123,7 @@ export default function Home() {
       </section>
 
       {/* story section */}
-      <section className="px-6 lg:px-0 mt-20 flex flex-col justify-center items-center">
+      <section className="px-6 lg:px-0 mt-20 flex flex-col justify-center items-center" id="story">
         <Image
           src={AbstractStory}
           alt=""
@@ -188,7 +188,7 @@ export default function Home() {
       </section>
 
       {/* tokenomics section */}
-      <section className="px-6 lg:pr-0 lg:pl-24">
+      <section className="px-6 lg:pr-0 lg:pl-24" id="tokenomics">
         <div className="lg:flex lg:flex-row lg:justify-between lg:items-center">
           <div>
             <h1 className="font-luckiestGuy text-[#3D3D3D] text-3xl lg:text-6xl mt-5 mb-3 lg:mt-10 text-center lg:text-left">
@@ -214,7 +214,7 @@ export default function Home() {
       </section>
 
       {/* media feed section */}
-      <section className="mt-20 px-6 lg:px-24 pb-20 lg:pb-40">
+      <section className="mt-20 px-6 lg:px-24 pb-20 lg:pb-40" id="media">
         <Image src={VectorUp} alt="" />
         <h1 className="font-luckiestGuy text-[#3D3D3D] text-3xl lg:text-6xl mt-5 lg:mt-0 mb-5 text-center">
           MEDIA FEED
