@@ -23,3 +23,13 @@ body {
 ::-webkit-scrollbar {
   width: 0px;
 }
+
+.carousel {
+  animation: move 10s linear infinite;
+}
+
+@keyframes move {
+  to {
+    transform: translate(calc(-50% - 0.5em));
+  }
+}

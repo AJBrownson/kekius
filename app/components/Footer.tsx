@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import Left from "@/public/images/footer-left.png";
 import Right from "@/public/images/footer-right.png";
 import Telegram from "@/public/icons/telegram.png";
@@ -26,18 +27,26 @@ export default function Footer() {
               world of memes.
             </p>
             <div className="flex justify-center items-center space-x-4 mt-8">
+            <Link href="https://t.co/hLN8RbYsJi" rel="noopener noreferrer" target="_blank">
               <button className="p-3 border border-white rounded-lg shadow-custom hover:shadow-customHover transition-all">
                 <Image src={Telegram} alt="Telegram" className="w-5 h-5" />
               </button>
+              </Link>
+              <Link href="https://x.com/KeKiusOnXRP" rel="noopener noreferrer" target="_blank">
               <button className="p-3 border border-white rounded-lg shadow-custom hover:shadow-customHover transition-all">
                 <Image src={Twitter} alt="Twitter" className="w-5 h-5" />
               </button>
+              </Link>
+              <Link href="https://t.co/znB3HYcyF8" rel="noopener noreferrer" target="_blank">
               <button className="p-3 border border-white rounded-lg shadow-custom hover:shadow-customHover transition-all">
                 <Image src={Dexscreener} alt="Dexscreener" className="w-5 h-5" />
               </button>
+              </Link>
+              <Link href="https://www.dextools.io/app/en/xrpl/pair-explorer/4B454B4955530000000000000000000000000000.rLWCx7obzMRbFfreNR6eScPz6GWj4xbr4v_XRP?t=1735732303613" rel="noopener noreferrer" target="_blank">
               <button className="p-3 border border-white rounded-lg shadow-custom hover:shadow-customHover transition-all">
                 <Image src={Desxtools} alt="Desxtools" className="w-5 h-5" />
               </button>
+              </Link>
             </div>
           </div>
           <Image

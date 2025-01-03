@@ -42,12 +42,16 @@ export default function Navbar() {
         </div>
 
         <div className="flex items-center space-x-3">
+        <Link href="https://t.co/hLN8RbYsJi" rel="noopener noreferrer" target="_blank">
           <button className="p-3 border border-white rounded-lg shadow-custom hover:shadow-customHover transition-all">
             <Image src={Telegram} alt="Telegram" className="w-5 h-5" />
           </button>
+          </Link>
+          <Link href="https://x.com/KeKiusOnXRP" rel="noopener noreferrer" target="_blank">
           <button className="p-3 border border-white rounded-lg shadow-custom hover:shadow-customHover transition-all">
             <Image src={Twitter} alt="Twitter" className="w-5 h-5" />
           </button>
+          </Link>
           <button className="bg-[#FFEB3B] text-[#2E7D32] lg:text-base font-fredoka font-semibold px-4 py-3 flex items-center rounded-lg shadow-custom hover:shadow-customHover transition-all">
             Generate Keikus
             <Image src={GenIcon} alt="Generate" className="w-5 h-5" />
@@ -102,14 +106,15 @@ export default function Navbar() {
           <Link href="#media">
             <p className="font-fredoka text-lg font-medium hover:text-[#FFEB3B] mb-5">Media</p>
           </Link>
-          <Link href="#media">
+          <Link href="https://x.com/KeKiusOnXRP" rel="noopener noreferrer" target="_blank">
             <p className="font-fredoka text-lg font-medium hover:text-[#FFEB3B] mb-5">Twitter</p>
           </Link>
-          <Link href="#media">
+          <Link href="https://t.co/hLN8RbYsJi" rel="noopener noreferrer" target="_blank">
             <p className="font-fredoka text-lg font-medium hover:text-[#FFEB3B] mb-5">Telegram</p>
           </Link>
 
           <div className="flex flex-col space-y-3 mt-5">
+            <Link href="https://www.dextools.io/app/en/xrpl/pair-explorer/4B454B4955530000000000000000000000000000.rLWCx7obzMRbFfreNR6eScPz6GWj4xbr4v_XRP?t=1735732303613" rel="noopener noreferrer" target="_blank">
             <button className="bg-[#FFEB3B] w-full justify-center text-[#2E7D32] shadow-dextoolShadow border-[1px] border-b-2 border-[#2E7D32] font-fredoka font-semibold px-8 h-14 py-3 flex items-center rounded-lg">
               DEXTOOLS
               <Image
@@ -118,7 +123,9 @@ export default function Navbar() {
                 className="w-5 h-5 ml-2"
               />
             </button>
+            </Link>
 
+            <Link href="https://t.co/znB3HYcyF8" rel="noopener noreferrer" target="_blank">
             <button className="bg-[#FFFFFF] w-full flex justify-center text-[#000000] shadow-dexscreenerShadow border-[1px] border-b-2 border-[#000000] font-fredoka font-semibold px-8 h-14 py-3 items-center rounded-lg">
               DEXSCREENER
               <Image
@@ -127,6 +134,7 @@ export default function Navbar() {
                 className="w-6 h-6 ml-1 rounded-full"
               />
             </button>
+            </Link>
           </div>
         </div>
       </div>

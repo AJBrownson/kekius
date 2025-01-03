@@ -2,6 +2,8 @@ import Image from "next/image";
 import Hero from "@/public/images/shadows.png";
 import HeroMobile from "@/public/images/shadows-mobile.png"
 import Abstract from "@/public/images/abstract.png"
+import AbstractStory from "@/public/images/abstract-story.png"
+import String from "@/public/images/vector-string.png"
 import DexscrLogo from "@/public/icons/dexscreener-black.png"
 import DextLogo from "@/public/icons/dextools.svg"
 import CopyAddressButton from "./components/CopyAddressButton"
@@ -10,6 +12,7 @@ import TokenomicsCards from "./components/TokenomicsCards";
 import TokenomicsHeroImg from "@/public/images/tokenomics-hero-img.png"
 import VectorUp from "@/public/icons/Vector-up.png"
 import MediaFeed from "./components/MediaFeed";
+import TextCarousel from "./components/TextCarousel";
 
 export default function Home() {
   return (
@@ -70,10 +73,20 @@ export default function Home() {
       </section>
 
       {/* carousel section */}
-      <section></section>
+      <section className="mt-20">
+        <TextCarousel />
+      </section>
+
+      {/* floating string */}
+      <section>
+
+      </section>
 
       {/* story section */}
-      <section className="px-6 lg:px-0 mt-20 flex justify-center items-center">
+      <section className="px-6 lg:px-0 mt-20 flex flex-col justify-center items-center">
+        <Image src={AbstractStory} alt="" className="w-96 h-60 lg:h-80 object-contain -mt-14 -mb-28 -z-30" />
+        <Image src={String} alt="" className="absolute -translate-x-[26rem] -translate-y-80 w-96 h-[20.5rem] object-contain -mt-14" />
+
         <div className="container flex flex-col items-center justify-center py-7 lg:py-14 px-4 lg:px-10 rounded-lg lg:rounded-[2rem] bg-[#E0CDA9] max-w-[800px]">
           <h1 className="font-luckiestGuy text-[#3D3D3D] text-2xl lg:text-4xl text-center mb-5">
             STORY
@@ -109,6 +122,13 @@ export default function Home() {
         </div>
       </section>
 
+        {/* floating image absolute -translate-x-[32rem] -translate-y-64 lg:w-[500px] lg:h-80*/}
+        <div>
+        <Image src={AbstractStory} alt="" className="-mt-40 lg:-mt-64 lg:ml-32 hidden lg:block lg:w-[500px] lg:h-80" />
+        </div>
+
+        
+
       {/* origin section */}
       <section className="mt-20 bg-[#8FE896] px-6 lg:px-24 py-7 lg:py-12">
         <h1 className="font-luckiestGuy text-[#3D3D3D] text-3xl lg:text-7xl mb-7 lg:mb-20 text-center">
@@ -118,24 +138,8 @@ export default function Home() {
       </section>
 
       {/* tokenomics section */}
-      {/* <section className="lg:pl-24">
-        <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center">
-          <div>
-            <h1 className="font-luckiestGuy text-[#3D3D3D] text-3xl lg:text-6xl my-5 lg:mt-10 text-center lg:text-left">
-              TOKENOMICS
-            </h1>
-            <p className="font-fredoka text-[#3D3D3D] font-medium text-xl max-w-[828px] mx-auto text-center lg:text-left">
-              Never forget about contract details!
-            </p>
-            <TokenomicsCards />
-          </div>
-
-          <Image src={TokenomicsHeroImg} alt="" className="hidden lg:block max-w-[500px]" />
-        </div>
-      </section> */}
-
       <section className="px-6 lg:pr-0 lg:pl-24">
-        <div className="lg:flex-row lg:justify-between lg:items-center">
+        <div className="lg:flex lg:flex-row lg:justify-between lg:items-center">
           <div>
           <h1 className="font-luckiestGuy text-[#3D3D3D] text-3xl lg:text-6xl mt-5 mb-3 lg:mt-10 text-center lg:text-left">
               TOKENOMICS

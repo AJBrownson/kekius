@@ -22,6 +22,15 @@ export default {
         dextoolShadow: "0px 6px 12px rgba(0, 0, 0, 0.2)",
         dexscreenerShadwow: "0px 6px 8px rgba(0, 0, 0, 0.2)",
       },
+      keyframes: {
+        scroll: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-100%)" },
+        },
+      },
+      animation: {
+        scroll: "scroll 10s linear infinite", // Adjust timing (10s for speed)
+      },
     },
   },
   plugins: [],
