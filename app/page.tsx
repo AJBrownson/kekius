@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Hero from "@/public/images/shadows.png";
 import HeroMobile from "@/public/images/shadows-mobile.png"
-import ArrowRight from "@/public/icons/arrow-up-right-03.png";
+import Abstract from "@/public/images/abstract.png"
 import DexscrLogo from "@/public/icons/dexscreener-black.png"
 import DextLogo from "@/public/icons/dextools.svg"
 import CopyAddressButton from "./components/CopyAddressButton"
@@ -15,12 +15,12 @@ export default function Home() {
   return (
     <>
       {/* hero section  */}
-      <section className="pt-32 lg:pt-40">
+      <section className="relative -z-20 pt-32 lg:pt-40">
         <div className="px-6 lg:px-0 flex flex-col justify-center text-center">
           <h1 className="text-7xl font-luckiestGuy lg:text-[80px] text-[#165819]">
             Kiekus Maximus
           </h1>
-          <h1 className="lg:mt-14 font-luckiestGuy text-5xl lg:text-[80px] text-[#3D3D3D]">
+          <h1 className="font-luckiestGuy text-5xl lg:text-[80px] text-[#3D3D3D]">
             Elon's Pepe
           </h1>
         </div>
@@ -56,6 +56,16 @@ export default function Home() {
               />
             </button>
           </div>
+        </div>
+
+        {/* floating images */}
+        <div className="hidden lg:block">
+          <Image src={Abstract} alt="" className="w-24 h-24 absolute top-28 right-40"/>
+          <Image src={Abstract} alt="" className="w-24 h-24 absolute top-60 left-32"/>
+          <Image src={Abstract} alt="" className="w-24 h-24 absolute top-96 right-72"/>
+          <Image src={Abstract} alt="" className="w-24 h-24 absolute bottom-96 left-60"/>
+          <Image src={Abstract} alt="" className="w-24 h-24 absolute bottom-80 right-0"/>
+          <Image src={Abstract} alt="" className="w-24 h-24 absolute bottom-24 right-40"/>
         </div>
       </section>
 
