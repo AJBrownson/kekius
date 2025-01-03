@@ -20,7 +20,7 @@ export default function MediaFeed() {
         </div>
         </Link>
 
-        <Link href="https://x.com/elonmusk/status/1867752745039458668" rel="noopener noreferrer" target="_blank">
+        <Link href="https://x.com/pepe/status/1867755244186480881" rel="noopener noreferrer" target="_blank">
         <div className="bg-[#A1DBA6] border-[1.5px] border-b-4 border-b-[#000]/50 border-[#82BF87] shadow-md shadow-[#2E7D32] lg:max-w-[270px] lg:max-h-[240px] px-2 pt-2 pb-5 rounded-xl">
           <Image src={Feed2} alt="Origin1" className="" />
           <div>
