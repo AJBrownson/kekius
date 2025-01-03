@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import Hero from "@/public/images/shadows.png";
 import HeroMobile from "@/public/images/shadows-mobile.png"

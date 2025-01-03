@@ -60,16 +60,6 @@ export default function Navbar() {
       </nav>
 
       {/* Hamburger button */}
-      {/* <button
-        onClick={handleNav}
-        className="lg:hidden fixed top-5 right-5 z-50 bg-[#FFEB3B] border border-b-2 border-[#165819] p-3 shadow-lg"
-      >
-        <Image
-          src={nav ? MenuClose : MenuOpen}
-          alt="Menu Toggle"
-          className="w-6 h-6"
-        />
-      </button> */}
        {!nav && (
         <button
           onClick={handleNav}

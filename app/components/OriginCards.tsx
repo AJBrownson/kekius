@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import Origin1 from "@/public/images/origin1.png";
 import Origin2 from "@/public/images/origin2.png";
