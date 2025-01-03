@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
+import Link from "next/link";
 import Hero from "@/public/images/shadows.png";
 import HeroMobile from "@/public/images/shadows-mobile.png"
 import Abstract from "@/public/images/abstract.png"
@@ -42,6 +43,7 @@ export default function Home() {
           </p>
 
           <div className="flex justify-center items-center space-x-4 lg:space-x-8 mt-5 lg:mt-10">
+          <Link href="https://www.dextools.io/app/en/xrpl/pair-explorer/4B454B4955530000000000000000000000000000.rLWCx7obzMRbFfreNR6eScPz6GWj4xbr4v_XRP?t=1735732303613" rel="noopener noreferrer" target="_blank">
             <button className="bg-[#FFEB3B] max-w-[200px] text-[#2E7D32] text-sm lg:text-base shadow-dextoolShadow border-[1px] border-b-2 border-[#2E7D32] font-fredoka font-semibold px-8 h-14 py-3 flex items-center rounded-lg">
               DEXTOOLS
               <Image
@@ -50,7 +52,9 @@ export default function Home() {
                 className="w-5 h-5 ml-2"
               />
             </button>
+            </Link>
 
+            <Link href="https://t.co/znB3HYcyF8" rel="noopener noreferrer" target="_blank">
             <button className="bg-[#FFFFFF] w-[180px] flex justify-center text-[#000000] text-sm lg:text-base shadow-dexscreenerShadow border-[1px] border-b-2 border-[#000000] font-fredoka font-semibold px-8 h-14 py-3 items-center rounded-lg">
               DEXSCREENER
               <Image
@@ -59,6 +63,7 @@ export default function Home() {
                 className="w-6 h-6 ml-2 rounded-full"
               />
             </button>
+            </Link>
           </div>
         </div>
 

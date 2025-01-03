@@ -9,7 +9,7 @@ export default function MediaFeed() {
     <>
       <div className="flex flex-col space-y-4 lg:space-y-0 lg:flex-row lg:space-x-4 justify-between">
 
-        <Link href="" rel="noopener noreferrer" target="_blank">
+        <Link href="https://x.com/elonmusk/status/1867752745039458668" rel="noopener noreferrer" target="_blank">
         <div className="bg-[#A1DBA6] border border-b-4 border-[#82BF87] lg:max-w-[270px] lg:max-h-[240px] px-2 pt-2 pb-5 rounded-xl">
           <Image src={Feed1} alt="Origin1" className="" />
           <div>
@@ -20,7 +20,7 @@ export default function MediaFeed() {
         </div>
         </Link>
 
-        <Link href="" rel="noopener noreferrer" target="_blank">
+        <Link href="https://x.com/elonmusk/status/1867752745039458668" rel="noopener noreferrer" target="_blank">
         <div className="bg-[#A1DBA6] border border-b-4  border-[#82BF87] lg:max-w-[270px] lg:max-h-[240px] px-2 pt-2 pb-5 rounded-xl">
           <Image src={Feed2} alt="Origin1" className="" />
           <div>
@@ -31,7 +31,7 @@ export default function MediaFeed() {
         </div>
         </Link>
 
-        <Link href="" rel="noopener noreferrer" target="_blank">
+        <Link href="https://x.com/cyb3rgam3r420/status/1873129550017880206" rel="noopener noreferrer" target="_blank">
         <div className="bg-[#A1DBA6] border border-b-4 border-[#82BF87] lg:max-w-[270px] lg:max-h-[240px] px-2 pt-2 pb-5 rounded-xl">
           <Image src={Feed3} alt="Origin1" className="" />
           <div>
