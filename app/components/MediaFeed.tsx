@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import Feed1 from "@/public/images/feed1.png";
 import Feed2 from "@/public/images/feed2.png";
 import Feed3 from "@/public/images/feed3.png";
@@ -8,6 +9,7 @@ export default function MediaFeed() {
     <>
       <div className="flex flex-col space-y-4 lg:space-y-0 lg:flex-row lg:space-x-4 justify-between">
 
+        <Link href="" rel="noopener noreferrer" target="_blank">
         <div className="bg-[#A1DBA6] border border-b-4 border-[#82BF87] lg:max-w-[270px] lg:max-h-[240px] px-2 pt-2 pb-5 rounded-xl">
           <Image src={Feed1} alt="Origin1" className="" />
           <div>
@@ -16,7 +18,9 @@ export default function MediaFeed() {
             </p>
           </div>
         </div>
+        </Link>
 
+        <Link href="" rel="noopener noreferrer" target="_blank">
         <div className="bg-[#A1DBA6] border border-b-4  border-[#82BF87] lg:max-w-[270px] lg:max-h-[240px] px-2 pt-2 pb-5 rounded-xl">
           <Image src={Feed2} alt="Origin1" className="" />
           <div>
@@ -25,7 +29,9 @@ export default function MediaFeed() {
             </p>
           </div>
         </div>
+        </Link>
 
+        <Link href="" rel="noopener noreferrer" target="_blank">
         <div className="bg-[#A1DBA6] border border-b-4 border-[#82BF87] lg:max-w-[270px] lg:max-h-[240px] px-2 pt-2 pb-5 rounded-xl">
           <Image src={Feed3} alt="Origin1" className="" />
           <div>
@@ -34,7 +40,9 @@ export default function MediaFeed() {
             </p>
           </div>
         </div>
+        </Link>
 
+        <Link href="" rel="noopener noreferrer" target="_blank">
         <div className="bg-[#A1DBA6] border border-b-4 border-[#82BF87] lg:max-w-[270px] lg:max-h-[240px] px-2 pt-2 pb-5 rounded-xl">
           <Image src={Feed4} alt="Origin1" className="" />
           <div>
@@ -43,6 +51,7 @@ export default function MediaFeed() {
             </p>
           </div>
         </div>
+        </Link>
       </div>
     </>
   );
