@@ -62,7 +62,7 @@ export default function CopyAddressButton() {
   };
 
   return (
-    <div className="flex items-center gap-2 p-2 bg-green-100 border border-green-300 rounded-lg shadow-lg">
+    <div className="flex items-center gap-2 p-2 bg-green-100 border-[1.5px] border-b-[3px] border-[#2E7D32] rounded-lg shadow-[#2E7D32] shadow-md">
       {/* Address Text */}
       <span className="text-[#2E7D32] font-fredoka font-semibold text-xs md:text-sm">
         CA: {address}

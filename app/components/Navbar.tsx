@@ -22,7 +22,7 @@ export default function Navbar() {
   return (
     <main className="relative lg:flex lg:justify-center">
       {/* navbar for desktop */}
-      <nav className="hidden lg:flex w-full max-w-[890px] lg:max-h-16 justify-between items-center mx-3 md:mx-5 m-5 py-3 px-3 rounded-2xl bg-[#2E7D32]">
+      <nav className="hidden lg:flex w-full max-w-[890px] lg:max-h-20 justify-between items-center mx-3 md:mx-5 m-5 py-3 px-3 rounded-2xl bg-[#2E7D32]">
         <div className="flex items-center lg:space-x-6">
           <Link href="/">
             <Image src={Logo} alt="Logo" className="w-14 h-14" />

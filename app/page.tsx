@@ -90,7 +90,7 @@ export default function Home() {
             rel="noopener noreferrer"
             target="_blank"
           >
-            <button className="bg-[#FFEB3B] max-w-[200px] text-[#2E7D32] text-sm lg:text-base shadow-dextoolShadow border-[1px] border-b-2 border-[#2E7D32] font-fredoka font-semibold px-8 h-14 py-3 flex items-center rounded-lg">
+            <button className="bg-[#FFEB3B] max-w-[200px] text-[#2E7D32] text-sm lg:text-base shadow-[#2E7D32] shadow-sm hover:bg-yellow-300 border-[1.5px] border-b-[3px] border-[#2E7D32] font-fredoka font-semibold px-8 h-14 py-3 flex items-center rounded-lg">
               DEXTOOLS
               <Image
                 src={DextLogo}
@@ -105,7 +105,7 @@ export default function Home() {
             rel="noopener noreferrer"
             target="_blank"
           >
-            <button className="bg-[#FFFFFF] w-[180px] flex justify-center text-[#000000] text-sm lg:text-base shadow-dexscreenerShadow border-[1px] border-b-2 border-[#000000] font-fredoka font-semibold px-8 h-14 py-3 items-center rounded-lg">
+            <button className="bg-[#FFFFFF] w-[180px] flex justify-center text-[#000000] text-sm lg:text-base shadow-dexscreenerShadow border-[1.5px] border-b-[3px] shadow-sm shadow-[#000000] hover:bg-white/60 border-[#000000] font-fredoka font-semibold px-8 h-14 py-3 items-center rounded-lg">
               DEXSCREENER
               <Image
                 src={DexscrLogo}
