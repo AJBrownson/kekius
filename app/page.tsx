@@ -161,7 +161,7 @@ export default function Home() {
       </section>
 
       {/* media feed section */}
-      <section className="mt-20 px-6 lg:px-24 lg:pb-40">
+      <section className="mt-20 px-6 lg:px-24 pb-20 lg:pb-40">
         <Image src={VectorUp} alt="" />
         <h1 className="font-luckiestGuy text-[#3D3D3D] text-3xl lg:text-6xl mt-5 lg:mt-0 mb-5 text-center">
           MEDIA FEED

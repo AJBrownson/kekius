@@ -19,7 +19,7 @@ export default function Footer() {
           />
 
           <div>
-            <h1 className="text-center font-luckiestGuy lg:text-6xl mb-5">
+            <h1 className="text-center font-luckiestGuy text-3xl lg:text-6xl mb-5">
               CONTACT KEKIUS
             </h1>
             <p className="text-center max-w-[600px] mx-auto font-fredoka font-medium lg:text-xl">
@@ -57,7 +57,7 @@ export default function Footer() {
         </div>
 
         {/* lower footer */}
-        <div className="border-t-[1px] border-[#2B7D2F] py-4 text-center">
+        <div className="border-t-[1px] border-[#2B7D2F] py-4 text-center mt-4 lg:mt-0">
           <p className="font-fredoka font-medium text-xs">
             2025 KEKIUS. All right reserved!
           </p>
