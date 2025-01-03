@@ -52,10 +52,12 @@ export default function Navbar() {
             <Image src={Twitter} alt="Twitter" className="w-5 h-5" />
           </button>
           </Link>
+          <Link href="https://x.com/i/grok/share/Q9pr9ZfunW32wKHPouxqAtXlpM" rel="noopener noreferrer" target="_blank">
           <button className="bg-[#FFEB3B] text-[#2E7D32] lg:text-base font-fredoka font-semibold px-4 py-3 flex items-center rounded-lg shadow-custom hover:shadow-customHover transition-all">
             Generate Keikus
             <Image src={GenIcon} alt="Generate" className="w-5 h-5" />
           </button>
+          </Link>
         </div>
       </nav>
 

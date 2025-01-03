@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
+import Link from "next/link";
 import Origin1 from "@/public/images/origin1.png";
 import Origin2 from "@/public/images/origin2.png";
 import Origin3 from "@/public/images/origin3.png";
@@ -28,10 +29,12 @@ export default function OriginCards() {
             </p>
           </div>
           <div className="flex justify-center mt-4 lg:mt-20">
+            <Link href="https://x.com/i/grok/share/Q9pr9ZfunW32wKHPouxqAtXlp" rel="noopener noreferrer" target="_blank">
           <button className="bg-[#FFEB3B] text-[#2E7D32] font-fredoka font-semibold px-4 py-3 flex items-center rounded-lg shadow-custom hover:shadow-customHover transition-all">
           Generate Keikus images
             <Image src={GenIcon} alt="Generate" className="w-5 h-5" />
           </button>
+          </Link>
           </div>
         </div>
 
