@@ -77,7 +77,7 @@ export default function Home() {
           <Image
             src={Abstract}
             alt=""
-            className="w-24 h-24 absolute bottom-24 right-40"
+            className="w-24 h-24 absolute bottom-0 right-40"
           />
         </div>
       </section>
