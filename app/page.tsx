@@ -170,7 +170,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* floating image absolute -translate-x-[32rem] -translate-y-64 lg:w-[500px] lg:h-80*/}
+      {/* floating images */}
       <div>
         <Image
           src={AbstractStory}
@@ -191,7 +191,7 @@ export default function Home() {
       <section className="px-6 lg:pr-0 lg:pl-24" id="tokenomics">
         <div className="lg:flex lg:flex-row lg:justify-between lg:items-center">
           <div>
-            <h1 className="font-luckiestGuy text-[#3D3D3D] text-3xl lg:text-6xl mt-5 mb-3 lg:mt-10 text-center lg:text-left">
+            <h1 className="font-luckiestGuy text-[#3D3D3D] text-3xl lg:text-6xl mt-8 mb-3 lg:mt-10 text-center lg:text-left">
               TOKENOMICS
             </h1>
             <p className="font-fredoka text-[#3D3D3D] font-medium text-sm lg:text-xl max-w-[828px] mb-5 text-center lg:text-left">

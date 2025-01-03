@@ -62,7 +62,7 @@ export default function Navbar() {
           <Link href="https://x.com/i/grok/share/Q9pr9ZfunW32wKHPouxqAtXlpM" rel="noopener noreferrer" target="_blank">
           <button className="bg-[#FFEB3B] hover:bg-yellow-300 text-[#2E7D32] lg:text-base font-fredoka font-semibold px-4 py-3 flex items-center border-b-[3px] border-white rounded-lg shadow-white shadow-md transition-all">
             Generate Keikus
-            <Image src={GenIcon} alt="Generate" className="w-5 h-5" />
+            <Image src={GenIcon} alt="Generate" className="w-5 h-5 ml-2" />
           </button>
           </Link>
         </div>

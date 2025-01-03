@@ -37,7 +37,7 @@ export default function OriginCards() {
             >
               <button className="bg-[#FFEB3B] hover:bg-yellow-300 text-[#2E7D32] lg:text-base font-fredoka font-semibold px-4 py-3 flex justify-center items-center border-[1.5px] border-b-[3px] border-[#2E7D32] rounded-lg shadow-[#2E7D32] shadow-md transition-all w-full">
                 Generate Keikus Images
-                <Image src={GenIcon} alt="Generate" className="w-5 h-5" />
+                <Image src={GenIcon} alt="Generate" className="w-5 h-5 ml-2" />
               </button>
             </Link>
           </div>
