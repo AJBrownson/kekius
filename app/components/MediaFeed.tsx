@@ -42,7 +42,7 @@ export default function MediaFeed() {
         </div>
         </Link>
 
-        <Link href="" rel="noopener noreferrer" target="_blank">
+        <Link href="https://x.com/elonmusk/status/1873388017458778627" rel="noopener noreferrer" target="_blank">
         <div className="bg-[#A1DBA6] border border-b-4 border-[#82BF87] lg:max-w-[270px] lg:max-h-[240px] px-2 pt-2 pb-5 rounded-xl">
           <Image src={Feed4} alt="Origin1" className="" />
           <div>
