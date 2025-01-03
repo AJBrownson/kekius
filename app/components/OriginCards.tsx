@@ -9,7 +9,7 @@ import GenIcon from "@/public/icons/image-flip-vertical.png";
 export default function OriginCards() {
   return (
     <>
-      <div className="flex flex-col space-y-5 lg:space-y-0 lg:flex-row justify-between">
+      <div className="flex flex-col space-y-5 lg:space-y-0 lg:flex-row justify-between lg:items-center">
         <div className="bg-[#B9E9BD] border border-[#82BF87] max-w-[350px] max-h-[420px] px-2 pt-2 pb-4 lg:pb-14 rounded-lg">
           <Image src={Origin1} alt="Origin1" className="w-full" />
           <div className="px-[1px]">
