@@ -29,7 +29,7 @@ export default function Navbar() {
           </Link>
 
           <ul className="flex space-x-6 lg:space-x-10 font-fredoka">
-            <Link href="#our-story" className="hover:text-[#FFEB3B]">
+            <Link href="#story" className="hover:text-[#FFEB3B]">
               <li className="font-medium text-sm lg:text-base">Our Story</li>
             </Link>
             <Link href="#tokenomics" className="hover:text-[#FFEB3B]">
