@@ -194,7 +194,7 @@ export default function Home() {
             <h1 className="font-luckiestGuy text-[#3D3D3D] text-3xl lg:text-6xl mt-5 mb-3 lg:mt-10 text-center lg:text-left">
               TOKENOMICS
             </h1>
-            <p className="font-fredoka text-[#3D3D3D] font-medium text-xl max-w-[828px] mb-5 text-center lg:text-left">
+            <p className="font-fredoka text-[#3D3D3D] font-medium text-sm lg:text-xl max-w-[828px] mb-5 text-center lg:text-left">
               Never forget about contract details!
             </p>
 

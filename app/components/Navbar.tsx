@@ -43,17 +43,17 @@ export default function Navbar() {
 
         <div className="flex items-center space-x-3">
         <Link href="https://t.co/hLN8RbYsJi" rel="noopener noreferrer" target="_blank">
-          <button className="p-3 hover:bg-green-600/40 border border-white rounded-lg shadow-custom hover:shadow-customHover transition-all">
+          <button className="p-3 hover:bg-green-600/40 border border-b-[3px] border-white rounded-lg shadow-white shadow-md transition-all">
             <Image src={Telegram} alt="Telegram" className="w-5 h-5" />
           </button>
           </Link>
           <Link href="https://x.com/KeKiusOnXRP" rel="noopener noreferrer" target="_blank">
-          <button className="p-3 hover:bg-green-600/40 border border-white rounded-lg shadow-custom hover:shadow-customHover transition-all">
+          <button className="p-3 hover:bg-green-600/40 border border-b-[3px] border-white rounded-lg shadow-white shadow-md transition-all">
             <Image src={Twitter} alt="Twitter" className="w-5 h-5" />
           </button>
           </Link>
           <Link href="https://x.com/i/grok/share/Q9pr9ZfunW32wKHPouxqAtXlpM" rel="noopener noreferrer" target="_blank">
-          <button className="bg-[#FFEB3B] hover:bg-yellow-300 text-[#2E7D32] lg:text-base font-fredoka font-semibold px-4 py-3 flex items-center rounded-lg shadow-custom hover:shadow-customHover transition-all">
+          <button className="bg-[#FFEB3B] hover:bg-yellow-300 text-[#2E7D32] lg:text-base font-fredoka font-semibold px-4 py-3 flex items-center border-b-[3px] border-white rounded-lg shadow-white shadow-md transition-all">
             Generate Keikus
             <Image src={GenIcon} alt="Generate" className="w-5 h-5" />
           </button>
