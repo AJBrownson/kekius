@@ -62,7 +62,7 @@ export default function CopyAddressButton() {
   };
 
   return (
-    <div className="flex items-center gap-2 p-2 bg-green-100 border-[1.5px] border-b-[3px] border-[#2E7D32] rounded-lg shadow-[#2E7D32] shadow-md">
+    <div className="flex items-center gap-2 p-2 bg-[#FFFFFF] border-[1.5px] border-b-[3px] border-[#2E7D32] rounded-lg shadow-[#2E7D32] shadow-md">
       {/* Address Text */}
       <span className="text-[#2E7D32] font-fredoka font-semibold text-xs md:text-sm">
         CA: {address}
@@ -71,7 +71,7 @@ export default function CopyAddressButton() {
       {/* Copy Button */}
       <button
         onClick={handleCopy}
-        className="flex items-center justify-center w-10 h-10 bg-yellow-400 text-[#2E7D32] rounded-r-lg hover:bg-yellow-500 transition-all"
+        className="flex items-center justify-center w-10 h-10 bg-[#FFEB3B] text-[#2E7D32] rounded-r-lg hover:bg-yellow-300 transition-all"
         aria-label="Copy to clipboard"
       >
         {/* Conditional Image Rendering */}

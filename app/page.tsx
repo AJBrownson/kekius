@@ -132,7 +132,7 @@ export default function Home() {
         <Image
           src={String}
           alt=""
-          className="absolute -translate-x-[27rem] -translate-y-80 w-96 h-[24rem] object-contain -mt-14"
+          className="absolute -translate-x-[27rem] -translate-y-[21rem] w-96 h-[24rem] object-contain -mt-14"
         />
 
         <div className="container flex flex-col items-center justify-center py-7 lg:py-14 px-4 lg:px-10 rounded-lg lg:rounded-[2rem] bg-[#E0CDA9] max-w-[800px]">
