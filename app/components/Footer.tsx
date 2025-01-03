@@ -11,7 +11,7 @@ export default function Footer() {
   return (
     <>
       <footer className="bg-[#165819] pt-[60px]">
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between px-6 lg:px-0">
           <Image
             src={Left}
             alt="Left"
@@ -22,7 +22,7 @@ export default function Footer() {
             <h1 className="text-center font-luckiestGuy text-3xl lg:text-6xl mb-5">
               CONTACT KEKIUS
             </h1>
-            <p className="text-center max-w-[600px] mx-auto font-fredoka font-medium lg:text-xl">
+            <p className="text-center max-w-[600px] mx-auto font-fredoka font-medium text-sm lg:text-xl">
               Join our community to connect, share and grow together in the
               world of memes.
             </p>
@@ -57,7 +57,7 @@ export default function Footer() {
         </div>
 
         {/* lower footer */}
-        <div className="border-t-[1px] border-[#2B7D2F] py-4 text-center mt-8 lg:mt-0">
+        <div className="border-t-[1px] border-[#2B7D2F] py-4 text-center mt-10 lg:mt-0">
           <p className="font-fredoka font-medium text-xs">
             2025 KEKIUS. All right reserved!
           </p>
