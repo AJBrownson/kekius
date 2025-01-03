@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 "use client";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { useState } from "react";
 import Image from "next/image";
 import Telegram from "@/public/icons/telegram.png";
@@ -14,6 +15,12 @@ import Logo from "@/public/icons/logo.svg";
 
 export default function Navbar() {
   const [nav, setNav] = useState(false);
+  const router = useRouter();
+
+  const navigateAndClose = (path: string) => {
+    setNav(false); // Close the menu immediately
+    router.push(path); // Navigate to the path
+  };
 
   const handleNav = () => {
     setNav(!nav);
@@ -85,23 +92,23 @@ export default function Navbar() {
         </div>
 
         <div className="p-5 space-y-5">
-          <Link href="#our-story">
+          <Link href="#story" onClick={handleNav}>
             <p className="font-fredoka text-lg font-medium hover:text-[#FFEB3B] mb-5">
               Our Story
             </p>
           </Link>
-          <Link href="#tokenomics">
+          <Link href="#tokenomics" onClick={handleNav}>
             <p className="font-fredoka text-lg font-medium hover:text-[#FFEB3B] mb-5">
               Tokenomics
             </p>
           </Link>
-          <Link href="#media">
+          <Link href="#media" onClick={handleNav}>
             <p className="font-fredoka text-lg font-medium hover:text-[#FFEB3B] mb-5">Media</p>
           </Link>
-          <Link href="https://x.com/KeKiusOnXRP" rel="noopener noreferrer" target="_blank">
+          <Link href="https://x.com/KeKiusOnXRP" rel="noopener noreferrer" target="_blank" onClick={handleNav}>
             <p className="font-fredoka text-lg font-medium hover:text-[#FFEB3B] mb-5">Twitter</p>
           </Link>
-          <Link href="https://t.co/hLN8RbYsJi" rel="noopener noreferrer" target="_blank">
+          <Link href="https://t.co/hLN8RbYsJi" rel="noopener noreferrer" target="_blank" onClick={handleNav}>
             <p className="font-fredoka text-lg font-medium hover:text-[#FFEB3B] mb-5">Telegram</p>
           </Link>
 
